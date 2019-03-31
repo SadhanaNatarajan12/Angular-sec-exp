@@ -4,4 +4,4 @@ var secretKey = 'secret-key';
 
 const verify = jwt.verify(existingToken, secretKey);
 console.log("Decoded JWT: ",verify);
-
+//NOTE: The secretkey should never be hardcoded in plaintext in the source code. Here it is done for demonstration purposes.
