@@ -7,3 +7,5 @@ crypto.randomBytes(256, function(err, salt) {
 	    console.log("PBKDF2 output: " + hash.toString('hex'));
 	});
 });
+
+//NOTE: The password should never be hardcoded in plaintext in the source code. Here it is done for demonstration purposes.
