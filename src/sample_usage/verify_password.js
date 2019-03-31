@@ -5,3 +5,4 @@ var hash = crypto.createHash('sha256').update(password).digest('hex');
 var isPasswordValid = (hash === storedHash);
 
 console.log("Is Password Valid: " + isPasswordValid);
+//NOTE: The password should never be hardcoded in plaintext in the source code. Here it is done for demonstration purposes.
